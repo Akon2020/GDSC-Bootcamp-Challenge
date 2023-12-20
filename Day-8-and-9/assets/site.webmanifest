@@ -1,0 +1,19 @@
+{
+  "name": "GDSC Day8&9 Bootcamp",
+  "short_name": "GDSC Day8&9 Bootcamp",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffe602",
+  "background_color": "#ffe602",
+  "display": "standalone"
+}

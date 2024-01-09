@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GDSC Bootcamp Challenge">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 6 | Connexion</title>
+    <style>
+        body{
+                background-color: #8ec5fc;
+                background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                font-family: sans-serif;
+            }
+            main{
+                background-color: #fff;
+                padding: 2rem;
+                border-radius: 0.5rem;
+                width: 400px;
+                animation: entrer .9s ease-in-out;
+            }
+            @keyframes entrer {
+                0% {
+                    opacity: 0;
+                    transform: translateY(100);
+                }
+                100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+            }
+            main a{
+                text-decoration: none;
+                color: #333;
+                padding: 0.5rem;
+                background-color: #e0f0ff;
+                border-radius: 0.5rem;
+
+            }
+            a:hover, .submit:hover{
+                background-color: #333;
+                color: #fff;
+                background-image: none;
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+            label{
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+            input{
+                padding: 1rem;
+                border-radius: 0.5rem;
+                border: 1px solid #ccc;
+                margin-bottom: 1rem;
+            }
+            input[type="submit"]{
+                background-color: #8ec5fc;
+                background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <a href="index.html">Retour à l'accueil</a>
+            <h2>Se connecter</h2>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Votre email">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" placeholder="Votre mot de passe">
+                <input type="submit" class="submit" value="Se connecter">
+                <p>Vous n'avez pas de compte? <a href="inscription.html">Inscrivez-vous</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

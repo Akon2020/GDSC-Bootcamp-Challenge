@@ -1,0 +1,4 @@
+#90DaysOfLearningChallenge #GDSC #Web #Firebase #Angular #Week1 #Day5
+
+Today I learn how to adding style, how to link a style page in my webpage and how to add animation on contents
+@gdscucbukavu @gdscIspBkv @GdgBukavu @gdg_uvira

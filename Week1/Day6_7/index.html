@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="GDSC Bootcamp Challenge">
+        <title>Day 6 | Home</title>
+        <style>
+            body{
+                background-color: #8ec5fc;
+                background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                font-family: sans-serif;
+            }
+            main{
+                width: 80%;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                background-color: #fff;
+                border-radius: 0.5rem;
+                width: 100%;
+                gap: 10px;
+            }
+            header a{
+                text-decoration: none;
+                color: #333;
+                padding: 0.5rem;
+                background-color: #e0f0ff;
+                border-radius: 0.5rem;
+            }
+            header a:hover{
+                color: #fff;
+                background-color: #333;
+            }
+            section h2{
+                text-align: center;
+                font-size: 4rem;
+            }
+            section p{
+                text-align: center;
+                font-size: 2rem;
+            }
+            section iframe{
+                width: 100%;
+                height: 600px;
+            }
+            section h3{
+                text-align: center;
+                font-size: 3rem;
+            }
+            section ol{
+                font-size: 2rem;
+            }
+            section img{
+                width: 100%;
+                border-radius: 5px;
+            }
+            section div{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1rem;
+            }
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <a href="contact.html">Contactez-nous</a>
+                <a href="login.html">Connexion</a>
+                <a href="inscription.html">Inscription</a>
+            </header>
+            <section>
+                <h2>Bienvenue sur notre site</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nesciunt commodi ad magnam fuga cupiditate ducimus eveniet! Perferendis necessitatibus quaerat, doloremque id animi culpa voluptatum qui beatae numquam sapiente asperiores.
+                </p>
+            </section>
+
+            <section>
+                <h3>Suivre notre vidéo</h3>
+                <iframe src="https://youtu.be/KaPBvpy56ig?si=vz0euJ7saGxvcOZr"
+                width="560" height="315" title="YouTube video player" 
+                frameborder="0" 
+                allow="web-share; autoplay; accelerometer; 
+                clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture"></iframe>
+            </section>
+            
+            <section>
+                <h3>Nos activités</h3>
+                <ol>
+                    <li>Activité 1</li>
+                    <li>Activité 2</li>
+                    <li>Activité 3</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Nos images</h3>
+                <div>
+                    <img src="images/HTML.png" alt="image1" width="300px">
+                    <img src="images/HTML5.png" alt="image2" width="300px">
+                    <img src="images/HTML.png" alt="image3" width="300px">
+                    <img src="images/HTML5.png" alt="image4" width="300px">
+                    <img src="images/HTML.png" alt="image5" width="300px">
+                </div>
+            </section>
+
+            <section>
+                <h3>Ma galerie audio</h3>
+                <div>
+                    <audio src="audios/01 Scene 1_ Welcome 2 Collegrove.mp3" controls></audio>
+                    <audio src="audios/02 G6.mp3" controls></audio>
+                    <audio src="audios/03 Big Diamonds.mp3" controls></audio>
+                    <audio src="audios/04 Presha.mp3" controls></audio>
+                </div>
+            </section>
+            
+        </main>
+    </body>
+</html>

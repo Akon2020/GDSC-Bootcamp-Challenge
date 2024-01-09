@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="GDSC Bootcamp Challenge">
+        <link rel="stylesheet" href="style.css">
+        <title>Day 6 | Inscription</title>
+            <style>
+                body {
+                    background-color: #8ec5fc;
+                    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                    font-family: sans-serif;
+                }
+            
+                main {
+                    background-color: #fff;
+                    padding: 2rem;
+                    border-radius: 0.5rem;
+                    width: 400px;
+                    animation: entrer .9s ease-in-out;
+                }
+            
+                @keyframes entrer {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(100);
+                    }
+            
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            
+                main a {
+                    text-decoration: none;
+                    color: #333;
+                    padding: 0.5rem;
+                    background-color: #e0f0ff;
+                    border-radius: 0.5rem;
+            
+                }
+            
+                a:hover,
+                .submit:hover {
+                    background-color: #333;
+                    color: #fff;
+                    background-image: none;
+                }
+            
+                h1 {
+                    text-align: center;
+                    margin-bottom: 2rem;
+                }
+            
+                form {
+                    display: flex;
+                    flex-direction: column;
+                }
+            
+                label {
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                }
+            
+                input, select {
+                    padding: 1rem;
+                    border-radius: 0.5rem;
+                    border: 1px solid #ccc;
+                    margin-bottom: 1rem;
+                }
+            
+                input[type="submit"] {
+                    background-color: #8ec5fc;
+                    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                }
+            </style>
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <a href="index.html">Retour à l'accueil</a>
+                <h2>Inscrivez-vous</h2>
+                <p>Remplissez le formulaire ci-dessous pour créer un compte</p>
+                <form>
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom" placeholder="Votre nom">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Votre email">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" placeholder="Votre mot de passe">
+                    <label for="password2">Confirmer le mot de passe</label>
+                    <input type="password" name="password2" id="password2" placeholder="Confirmer le mot de passe">
+                    <label for="Adresse">Adresse</label>
+                    <input type="text" name="adresse" id="adresse" placeholder="Votre adresse">
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" name="telephone" id="telephone" placeholder="Votre numéro de téléphone">
+                    <label for="sexe">Sexe</label>
+                    <select name="sexe" id="sexe">
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                    </select>
+                    <label for="date_naissance">Date de naissance</label>
+                    <input type="date" name="date_naissance" id="date_naissance">
+                    <label for="nationalie">Nationalité</label>
+                    <input type="text" name="nationalite" id="nationalite" placeholder="Votre nationalité">
+                    <label for="situation_matrimoniale">Situation matrimoniale</label>
+                    <select name="situation_matrimoniale" id="situation_matrimoniale">
+                        <option value="celibataire">Célibataire</option>
+                        <option value="marie">Marié(e)</option>
+                        <option value="divorce">Divorcé(e)</option>
+                        <option value="veuf">Veuf(ve)</option>
+                    </select>
+                    <label for="niveau_etude">Niveau d'étude</label>
+                    <select name="niveau_etude" id="niveau_etude">
+                        <option value="primaire">Primaire</option>
+                        <option value="secondaire">Secondaire</option>
+                        <option value="universitaire">Universitaire</option>
+                    </select>
+                    <label for="profession">Profession</label>
+                    <input type="text" name="profession" id="profession" placeholder="Votre profession">
+                    <label for="photo">Photo</label>
+                    <input type="file" name="photo" id="photo">
+                    <input type="submit" class="submit" value="S'inscrire">
+                    <p>Vous avez déjà un compte? <a href="login.html">Connectez-vous</a></p>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

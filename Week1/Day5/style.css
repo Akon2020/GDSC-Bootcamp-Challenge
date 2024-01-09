@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f9ff;
+}
+
+.container {
+    min-height: 80vh;
+    padding: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>div {
+    background: #ffff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #3bb7ed;
+}
+
+.container p {
+    text-align: center;
+    max-width: 400px;
+    line-height: 27px;
+    color: #a0a0a0;
+    margin: 1em 2em;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container input,
+.container textarea {
+    border: none;
+    padding: 0.8em;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0.5em 0 1em 0;
+    font-size: 1.1em;
+    background: #eee;
+    color: #969696;
+}
+
+.container label {
+    color: #a0a0a0;
+}
+
+.container textarea {
+    resize: none;
+    height: 8em;
+    font-family: sans-serif;
+}
+
+.container input:focus,
+.container textarea:focus {
+    outline: none;
+}
+
+.container input::placeholder,
+.container textarea::placeholder {
+    color: #bababa;
+}
+
+.container button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.8em;
+    background: #3bb7ed;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background: #000;
+}
+.container button:active {
+    transform: scale(0.95);
+}
+
+.container button a{
+    color: #fff;
+    text-decoration: none;
+}
